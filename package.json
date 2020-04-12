@@ -1,0 +1,25 @@
+{
+  "name": "clockjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "watch-sass": "node-sass --watch sass -o css",
+    "compile-sass": "node-sass sass -o css",
+    "compress-sass": "node-sass sass -o css --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-Marou/ClockJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M-Marou/ClockJS/issues"
+  },
+  "homepage": "https://github.com/M-Marou/ClockJS#readme"
+}
